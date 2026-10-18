@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Annie Sun | Mechanical Engineering & Robotics Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#top">Annie Sun</a>
+<nav aria-label="Main"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top"><div id="home">
+<div class="wrap hero">
+<img class="portrait" src="images/portfolio_profile_pic.jpg" alt="Portrait of Annie Sun">
+<div>
+<h1>Hi, I’m Annie Sun.</h1>
+<p>
+    I’m a Mechanical Engineering student at the University of British Columbia (BASc, expected April 2029), interested in robotics, embedded electronics, and mechanical design.
+    I develop mechanical systems, custom PCBs, and simulations through personal projects, undergraduate research at Prime Robotics, and hardware roles with UBC Rocket and UBC Uncrewed Aircraft Systems.
+
+</p>
+<div class="btns">
+<a class="btn main" href="#projects">See projects</a>
+<a class="btn" href="files/resume.pdf" download data-dl>Download Resume</a>
+<a class="btn" href="https://www.linkedin.com/in/anniesun154/">LinkedIn</a>
+</div>
+</div>
+</div>
+
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<p class="sub">Selected work in robotic mechanisms, motor control, RF electronics, and UAV systems.</p>
+<div class="grid">
+<a class="card" href="#uas"><img class="thumb" src="images/water-cover.jpg" alt="OnShape model of the water container: a wide flat lid on a cylindrical body that tapers to a cone">
+    <h3>4 L UAV Water Container</h3><p class="where">UBC UAS Payload</p>
+    <p>Designed a 4 L PETG water container with a thermoformed body and a quarter-turn locking lid, iterating on sealing and fit.</p>
+    <ul class="tags">
+        <li>OnShape</li><li>Thermoforming</li><li>3D printing</li></ul>
+        <span class="more">View project</span></a>
+<a class="card" href="#gripper"><img class="thumb" src="images/gripper-cover.jpg" 
+    alt="SolidWorks render of the 3-finger gripper with its fingers spread above the palm base">
+    <h3>3-Finger Gripper</h3>
+    <p class="where">Prime Robotics</p><p>Three-finger robotic gripper with 3D-printed PLA compliant joints and custom IMU sensing PCBs.</p>
+    <ul class="tags"><li>SolidWorks</li><li>STM32</li><li>I2C</li><li>PCB design</li></ul><span class="more">View project</span></a>
+<a class="card" href="#leg"><img class="thumb" src="images/leg-assembly.JPG" 
+    alt="SolidWorks assembly of the 3-DOF robotic leg with three yellow gearbox housings and black links">
+    <h3>Quadruped Robot Leg</h3><p class="where">Personal project</p>
+    <p>3-DOF leg for a 6 kg quadruped, featuring 45:1 planetary-cycloidal gearboxes and MATLAB kinematics models.</p>
+    <ul class="tags"><li>SolidWorks</li><li>Cycloidal drive</li><li>MATLAB</li>
+    </ul><span class="more">View project</span></a>
+<a class="card" href="#esc"><img class="thumb" src="images/esc-3d.jpg" alt="3D render of the motor controller board"><h3>Custom BLDC Motor Controller</h3><p class="where">Personal project, quadruped robot leg</p><p>Custom 6S BLDC motor controller featuring an STM32 MCU, three-phase MOSFET bridge, gate driver, and current sensing; initial PCB ordered.</p><ul class="tags"><li>KiCad</li><li>STM32</li><li>BLDC control</li><li>PCB design</li></ul><span class="more">View project</span></a>
+<a class="card" href="#rocket"><img class="thumb" src="images/in_progress.jpg" alt="In Progress!"> <h3>Custom Telemetry Ground Station RF Transceiver</h3> <p class="where">UBC Rocket</p> <p>Developing a 2-layer, 915 MHz ground station PCB using an SX1262 transceiver and STM32G0, with USB-C power and an SMA antenna interface.</p><ul class="tags"><li>SX1262</li><li>STM32G0</li><li>915 MHz</li></ul><span class="more">View project</span>
+</a>
+<a class="card" href="#elrs"><img class="thumb" src="images/in_progress.jpg" alt="ExpressLRS receiver project in progress">
+    <h3>2.4 GHz ExpressLRS Receiver</h3><p class="where">UBC UAS Electrical</p>
+    <p>Developing a compact 5 V receiver with adjustable RF transmit power; researching components for a true-diversity RF architecture.</p>
+    <ul class="tags"><li>2.4 GHz RF</li><li>ExpressLRS</li><li>Power management</li></ul><span class="more">View project</span></a>
+
+</div>
+</div></section>
+
+<section id="experience"><div class="wrap"><h2>Experience</h2><p class="sub">Teams and labs where I design and build.</p>
+<article class="exprow"><div class="ph" role="img" aria-label="Placeholder photo: UBC UAS photo">Photo placeholder: UBC UAS photo</div><div class="exptext"><h3>UBC Uncrewed Aircraft Systems</h3><p class="where">Electrical Member · September 2026 – Present</p><ul><li>Developing a custom 2.4 GHz ExpressLRS receiver, targeting a compact 5 V design with adjustable RF transmit power.</li><li>Researching RF transceivers, antenna interfaces, and power management to define system architecture and select components for a true-diversity design.</li></ul><p class="where second">Payload Member · September 2025 – August 2026</p><ul><li>Designed a 4L PETG water-carrying container, applying thermoforming techniques and evaluating manufacturability.</li><li>Designed a quarter-turn locking mechanism for rapid, secure attachment to the UAV payload frame and simplified assembly.</li><li>Iteratively refined sealing methods, thread geometry, and mechanical tolerances to reduce leakage under dynamic flight conditions.</li></ul><p class="rel">Related projects: <a href="#elrs">2.4 GHz ExpressLRS Receiver</a> · <a href="#uas">4 L UAV Water Container</a></p></div></article>
+<article class="exprow"><div class="ph" role="img" aria-label="Placeholder photo: UBC Rocket photo">Photo placeholder: UBC Rocket photo</div><div class="exptext"><h3>UBC Rocket</h3><p class="where">Avionics Hardware Member · September 2026 – Present</p><ul><li>Developing a custom 2-layer, 915 MHz telemetry ground station PCB using an SX1262 RF transceiver and STM32G0 microcontroller.</li><li>Designing supporting circuitry for USB-C power input, USB-to-UART communication, 3.3 V regulation, and an SMA antenna interface.</li></ul><p class="rel">Related project: <a href="#rocket">Custom Telemetry Ground Station RF Transceiver</a></p></div></article>
+<article class="exprow nophoto"><div class="exptext"><h3>Prime Robotics</h3><p class="where">Undergraduate Research Student · July 2026 – Present</p><ul><li>Designed a three-finger robotic gripper featuring 3D-printed PLA compliant joints to accommodate variations in object geometry.</li><li>Developed and prototyped custom PCBs integrating inertial measurement units (IMUs) with I2C communication for motion sensing.</li></ul><p class="rel">Related project: <a href="#gripper">3-Finger Gripper</a></p></div></article>
+</div></section>
+
+<section id="skills"><div class="wrap"><h2>Technical Skills</h2>
+<p><strong>Mechanical Design:</strong> SolidWorks, Onshape, Fusion 360</p>
+<p><strong>Electronics:</strong> KiCad, Altium Designer, STM32CubeIDE</p>
+<p><strong>Programming &amp; Simulation:</strong> MATLAB, Python, C, C++, ROS2</p>
+</div></section>
+<section id="resume"><div class="wrap"><h2>Resume</h2><p class="sub">BASc in Mechanical Engineering, University of British Columbia (September 2025 – April 2029, expected).</p><a class="btn main" href="files/resume.pdf" download data-dl>Download Resume</a></div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Contact</h2>
+<p class="sub">Want to talk about a project or role? Reach out.</p>
+<div class="btns" style="margin-top:0">
+<a class="btn main" href="mailto:anniesun5467@email.com">anniesun5467@email.com</a>
+<a class="btn" href="https://www.linkedin.com/in/anniesun154/">LinkedIn</a>
+<a class="btn" href="https://github.com/Annie308">GitHub</a>
+</div>
+</div></section>
+</div>
+<article class="detail" id="uas"><div class="wrap"><a class="back" href="#projects">&larr; All projects</a><h2>4 L UAV Water Container</h2><p class="where">UBC UAS Payload</p><p>For the UBC UAS payload team, I designed a 4 L PETG water-carrying container. I modeled the geometry in Onshape, designed a thermoforming mold, and evaluated how the body could be manufactured and attached to the UAV payload frame.</p><h3>Lid</h3><p>I designed a 3D-printed quarter-turn locking mechanism for fast, secure assembly. I iteratively refined the threads, mechanical tolerances, and sealing approach to reduce leakage during dynamic flight conditions.</p><div class="gallery three"><figure><img src="images/water-thermoformed.jpg" alt="Clear thermoformed plastic container, upside down on a metal table"><figcaption>Thermoformed container</figcaption></figure><figure><img src="images/water-mold.jpg" alt="Dark grey thermoforming mold shaped like a cone with a wide flange"><figcaption>Thermoforming mold</figcaption></figure><figure><img src="images/water-lid.jpg" alt="Two black 3D printed lid parts, a ring and a textured lid with quarter-turn tabs"><figcaption>Lid with quarter-turn threads</figcaption></figure></div></div></article>
+<article class="detail" id="gripper"><div class="wrap"><a class="back" href="#projects">&larr; All projects</a><h2>3-Finger Gripper</h2><p class="where">Prime Robotics</p><div class="ph big" role="img" aria-label="Placeholder photo: Gripper project photo">Photo placeholder: Gripper project photo</div><p>A three-finger robotic gripper developed through undergraduate research at Prime Robotics, combining compliant mechanical joints with custom motion-sensing electronics.</p><h3>Mechanical</h3><p>I designed the three-finger mechanism in SolidWorks, using 3D-printed PLA compliant joints to accommodate variations in object shape. The project explores how compliant fingers can support grasping without rigidly matching every object geometry.</p><h3>Electrical</h3><p>I developed and prototyped custom PCBs for motion sensing, integrating IMUs with I2C communication. The design includes an STM32 interface, I2C multiplexing, connectors, and support circuitry. Hardware bring-up and troubleshooting are ongoing.</p><h3>Schematic</h3><div class="stack wide"><figure><button type="button" class="zoombtn" aria-label="Enlarge schematic"><img src="images/gripper-schematic.png" alt="Schematic of the gripper palm board: STM32G031 microcontroller, PCA9548A I2C multiplexer, I2C pull-ups with ESD protection, LSM6DSR IMU, USB connector, connectors, test LEDs, and a 3.3V LDO"></button><figcaption>Gripper palm board schematic (click to enlarge)</figcaption></figure></div><h3>PCB layout</h3><div class="shots"><figure><img src="images/palm-board-3d.jpg" alt="3D render of the palm board PCB, version 2.0, with USB-C, connectors, and an STM32-style microcontroller"><figcaption>Palm board, 3D render</figcaption></figure><figure><img src="images/palm-board-layout.jpg" alt="PCB layout of the palm board showing copper traces and component placement"><figcaption>Palm board, PCB layout</figcaption></figure></div></div></article>
+<article class="detail" id="leg"><div class="wrap"><a class="back" href="#projects">&larr; All projects</a><h2>Quadruped Robot Leg</h2><p class="where">Personal project</p><p>A mechanical design and modeling project for a 6 kg quadruped robot. I developed the leg transmission and modeled its kinematics to evaluate joint motion, workspace, and torque demands. A <a href="#esc">custom BLDC motor controller</a> is being developed as a separate part of the system.</p><h3>Mechanical</h3><p>I designed a compact 45:1 planetary-cycloidal gearbox in SolidWorks and packaged the actuator assemblies into a 3-DOF leg. I compared torque requirements, reduction ratios, and available space when selecting the transmission layout.</p><div class="gallery"><figure><img src="images/leg-gb-ext1.jpg" alt="Exterior of the cycloidal-planetary hybrid gearbox housing, viewed from the cap side"><figcaption>Cycloidal-planetary hybrid gearbox: exterior view 1</figcaption></figure><figure><img src="images/leg-gb-ext2.jpg" alt="Exterior of the cycloidal-planetary hybrid gearbox housing, viewed from the output side"><figcaption>Cycloidal-planetary hybrid gearbox: exterior view 2</figcaption></figure><figure><img src="images/leg-gb-sec1.jpg" alt="Section view of the cycloidal-planetary hybrid gearbox showing the shaft, bearings, and gear stages"><figcaption>Cycloidal-planetary hybrid gearbox: section view 1</figcaption></figure><figure><img src="images/leg-gb-sec2.jpg" alt="Second section view of the cycloidal-planetary hybrid gearbox showing the internal gear stages"><figcaption>Cycloidal-planetary hybrid gearbox: section view 2</figcaption></figure><figure><img src="images/leg-knee.jpg" alt="Close-up of the robotic leg knee showing the 2:1 belt drive between the links"><figcaption>Knee belt-drive concept</figcaption></figure></div><h3>Simulation</h3><p>I developed forward and inverse kinematics models in MATLAB to study joint configurations, workspace limits, and leg motion. I also used the models to assess locomotion and joint torque requirements.</p></div></article>
+<article class="detail" id="esc"><div class="wrap"><a class="back" href="#projects">&larr; All projects</a><h2>Custom BLDC Motor Controller</h2><p class="where">Personal project, quadruped robot leg</p><p>A custom 6S brushless DC (BLDC) motor controller for the quadruped project, designed in KiCad. The initial PCB has been ordered but has not yet been validated in hardware testing.</p><h3>Hardware</h3><p>The design integrates an STM32F401 microcontroller, a three-phase external MOSFET bridge, a gate driver, low-side current sensing, and voltage regulation. The board also includes interfaces for peripheral connections and debugging.</p><h3>Schematic</h3><div class="stack wide"><figure><button type="button" class="zoombtn" aria-label="Enlarge schematic"><img src="images/esc-schematic.png" alt="Schematic of the motor controller: STM32F401, 3.3V buck, 22.2V to 9V LDO, gate driver, TVS protection, connectors, bulk decoupling, and three half-bridge phases with current sensing"></button><figcaption>Motor controller schematic (click to enlarge)</figcaption></figure></div><h3>PCB layout</h3><div class="stack"><figure><img src="images/esc-pcb-1.jpg" alt="PCB layout of the motor controller showing all copper layers and component placement"><figcaption>PCB layout, all layers</figcaption></figure></div><div class="gallery"><figure><img src="images/esc-pcb-2.jpg" alt="PCB layout view of the motor controller, first layer view"><figcaption>Layer view 1</figcaption></figure><figure><img src="images/esc-pcb-3.jpg" alt="PCB layout view of the motor controller showing pads and footprints"><figcaption>Layer view 2</figcaption></figure><figure><img src="images/esc-pcb-4.jpg" alt="PCB layout view of the motor controller, a layer with large copper areas and a few traces"><figcaption>Layer view 3</figcaption></figure><figure><img src="images/esc-pcb-5.jpg" alt="PCB layout view of the motor controller, a layer with blue traces"><figcaption>Layer view 4</figcaption></figure></div><h3>System</h3><p>Planned integration includes communication between joint controllers and a higher-level ROS2-based system. The motor-control PCB remains at the prototype stage; system-level performance has not yet been verified.</p></div></article>
+<article class="detail" id="rocket"><div class="wrap"><a class="back" href="#projects">&larr; All projects</a><h2>Custom Telemetry Ground Station RF Transceiver</h2><p class="where">UBC Rocket</p><div class="ph big" role="img" aria-label="Placeholder photo: Ground station transceiver">Photo placeholder: Ground station transceiver</div><p>Developing a 2-layer, 915 MHz ground station PCB using an SX1262 transceiver and STM32G0, with USB-C power and an SMA antenna interface.</p><h3>Hardware architecture</h3><p>The circuit design incorporates USB-C power input, USB-to-UART communication, 3.3 V regulation, and an SMA antenna interface. My work involves RF component selection and the supporting electronics for the transceiver and microcontroller.</p><h3>Current status</h3><p>PCB development is ongoing; completed-board RF measurements and validation results are not yet available.</p></div></article>
+<article class="detail" id="elrs"><div class="wrap"><a class="back" href="#projects">&larr; All projects</a><h2>2.4 GHz ExpressLRS Receiver</h2><p class="where">UBC UAS Electrical</p><div class="ph big" role="img" aria-label="Receiver design in progress">Receiver design in progress</div><p>I am developing a compact, 5 V ExpressLRS receiver for UBC Uncrewed Aircraft Systems, with adjustable RF transmit power.</p><h3>System design</h3><p>I am researching RF transceivers, antenna interfaces, and power-management components to define the system architecture and select parts for a true-diversity design.</p><h3>Status</h3><p>Component research and architecture development are ongoing; performance results are not yet available.</p></div></article>
+</main>
+
+<footer><div class="wrap">© 2026 Annie Sun</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
